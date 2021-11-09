@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAT-problem_recursion", "SAT-problem_recursion\SAT-problem_recursion.csproj", "{35B55135-0169-4A12-AA76-F55BF5BEE77C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAT-problem_recursionTests", "SAT-problem_recursionTests\SAT-problem_recursionTests.csproj", "{704A511B-EEEB-4675-A281-503B07855399}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35B55135-0169-4A12-AA76-F55BF5BEE77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B55135-0169-4A12-AA76-F55BF5BEE77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B55135-0169-4A12-AA76-F55BF5BEE77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B55135-0169-4A12-AA76-F55BF5BEE77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704A511B-EEEB-4675-A281-503B07855399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704A511B-EEEB-4675-A281-503B07855399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704A511B-EEEB-4675-A281-503B07855399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704A511B-EEEB-4675-A281-503B07855399}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {838B8FAD-6690-4B3F-B0E7-97DFD18E1779}
+	EndGlobalSection
+EndGlobal
