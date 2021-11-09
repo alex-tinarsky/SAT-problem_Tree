@@ -17,7 +17,7 @@ namespace SAT_problem_recursion
         public static ExprBoolean operator !(ExprBoolean expr)
             => new BoolOp(BoolOperations.Not, expr, null);
     }
-    class BoolVariable : ExprBoolean
+    public class BoolVariable : ExprBoolean
     {
         public HashSet<bool> PossibleValues { get; set; }
         public BoolVariable()
