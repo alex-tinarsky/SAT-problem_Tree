@@ -71,27 +71,9 @@ namespace SAT_problem_recursion
 
         static void Main(string[] args)
         {
-
             BoolVariable X1 = new(), X2 = new(), X3 = new();
-            var Exp = X1 & (X2 | X3 | !X1);
-            
-
+            var Exp = X1 & !(X2 | X3 | !X1);
             Console.WriteLine(IsThereSolution(Exp, true));
-            Console.WriteLine("X1");
-            foreach (bool elem in X1.PossibleValues)
-            {
-                Console.WriteLine(elem);
-            }
-            Console.WriteLine("X2");
-            foreach (bool elem in X2.PossibleValues)
-            {
-                Console.WriteLine(elem);
-            }
-            Console.WriteLine("X3");
-            foreach (bool elem in X3.PossibleValues)
-            {
-                Console.WriteLine(elem);
-            }
         }
     }
 }
